@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivacyPal - Your Online Privacy Guardian</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px 20px;
+    text-align: center;
+}
+
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.intro-column {
+    flex: 1;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 12px;
+    padding: 20px;
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+.developer-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow cards to wrap within the container */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px; /* Minimum width of cards */
+}
+
+.card img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.card a {
+    margin-top: auto;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .developer-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        min-width: auto; /* Adjust for smaller screens */
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    #introduction {
+        flex-direction: column;
+        text-align: left;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section id="introduction" class="container">
+            <div class="intro-column">
+                <h1>Welcome to PrivacyPal</h1>
+                <p>Your Personal Guardian for Online Privacy</p>
+            </div>
+            <div class="intro-column">
+                <h2>Support Us</h2>
+                <p>PrivacyPal is free, but our mission isn't. We rely on your generosity.</p>
+                <a href="https://buy.stripe.com/cN228p7A289875e9AB"><button>Donate Now</button></a>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="container">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Install with Ease: Add PrivacyPal to your Chrome browser.</li>
+                <li>Enter Your OpenAI Key: This fuels our AI to read and analyze terms for you.</li>
+                <li>Customize Your Concerns: Tell us what matters to you.</li>
+                <li>Browse with Confidence: PrivacyPal reviews the fine print.</li>
+            </ol>
+        </section>
+
+
+
+        <section id="api-key-guide" class="container">
+            <h2>Get Your OpenAI API Key</h2>
+            <ol>
+                <li>Visit OpenAI's website and click on 'Sign Up' to create an account.</li>
+                <li>Fill in your details, agree to the terms, and complete the email verification.</li>
+                <li>Log into your OpenAI account and navigate to the 'API' section.</li>
+                <li>Follow the instructions to generate a new API key.</li>
+                <li>Copy your API key securely.</li>
+                <li>Add your API key to PrivacyPal in the settings or preferences section.</li>
+            </ol>
+        </section>
+
+        <section id="developers" class="container">
+            <h2>Meet the Developers</h2>
+            <div class="developer-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <h3>Benjamin S. Powell</h3>
+                    <p><strong>Divertise Asia</strong></p>
+                    <p>Benjamin S. Powell is an entrepreneur with over twenty years of experience in product leadership. He has a notable background in integrating AI and No-code solutions to enhance innovation and efficiency across various businesses. His career includes founding and leading multiple companies and products, achieving two successful exits​.
+                        <br/><br/>
+                        In addition to his entrepreneurial and product leadership experience, Benjamin S. Powell is skilled in AI & No-code Solutions, applying these technologies to create AI-powered tools and optimize business workflows. He is also involved in public speaking and shares his industry insights, particularly on AI and related technologies​.</p>
+                    <a href="https://benjaminspowell.com">Contact Benjamin</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <h3>Hunter Williams</h3>
+                    <p><strong>Divertise Asia</strong></p>
+                    <p>Divertise Asia is a for-profit company that specializes in a range of cutting-edge technologies, particularly focusing on Artificial Intelligence (AI), Blockchain, Machine Learning, Mobile Apps, and Web Apps. The company, established on March 5, 2017, operates primarily in the Asia-Pacific (APAC) region, including the Association of Southeast Asian Nations (ASEAN) and Southeast Asia. Divertise Asia's primary goal is to serve as a technical partner for startups in Asia, with a special focus on areas like Artificial Intelligence, Games, Virtual Reality (VR), Application & Web Platform Development, and Data Driven Services</p>
+                    <a href="https://divertise.asia">Contact Hunter</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <h3>Tarek</h3>
+                    <p><strong>Tarek's Business</strong></p>
+                    <p>Innovator in digital solutions. </p>
+                    <a href="mailto:tarekbzs@me.com">Contact Tarek</a>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>PrivacyPal © 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
